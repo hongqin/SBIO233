@@ -1,0 +1,46 @@
+#DENDROSCOPE
+{TREE 'Tree1'
+((HongKong02:8.0E-5,((((HongKong03:9.0E-5,Toronto022:9.0E-5):1.0E-5,Taiwan0301:4.0E-5):4.0E-5,Hanoi02260:8.0E-5):0.0,(Singapore0:0.0,Frankfurt:1.5E-4):0.0):1.5E-4):6.1285717E-4,Guandong121602:8.3714287E-4);
+}
+{GRAPHVIEW
+nnodes=15 nedges=14
+nodes
+12: nh=2 nw=2 fg=0 0 0 bg=0 0 0 w=1 sh=0 x=7.6285715E-4 y=6.5 fx=1 lc=0 0 0 lk=null lx=0 ly=0 ll=7 lv=1;
+13: x=7.6285715E-4 y=6.0 ft='Dialog-BOLD-16' lb='Singapore0';
+4: x=7.6285715E-4 y=5.3125;
+2: x=6.1285717E-4 y=3.15625;
+3: x=6.9285714E-4 y=1.0 ft='Dialog-BOLD-16' lx=3 ly=9 ll=9 lb='HongKong02';
+15: x=8.3714287E-4 y=8.0 lx=0 ly=0 ll=7 lb='Guandong121602';
+5: x=7.6285715E-4 y=4.125;
+6: x=8.0285716E-4 y=3.25;
+7: x=8.128571E-4 y=2.5;
+8: x=9.0285717E-4 y=2.0 ft='Dialog-BOLD-16' lb='HongKong03';
+9: x=9.0285717E-4 y=3.0 lb='Toronto022';
+10: x=8.428571E-4 y=4.0 lb='Taiwan0301';
+11: x=8.428571E-4 y=5.0 lb='Hanoi02260';
+14: x=9.128571E-4 y=7.0 lb='Frankfurt';
+1: x=0.0 y=5.578125 ll=3;
+edges
+12: fg=0 0 0 w=1 sh=1 ip= < 7.6285715E-4 6.0> dr=1 lc=0 0 0 lk=null lx=0 ly=0 ll=11 lv=1;
+2: ip= < 6.1285717E-4 1.0>;
+3: ip= < 6.1285717E-4 5.3125>;
+7: ip= < 8.128571E-4 2.0>;
+8: ip= < 8.128571E-4 3.0>;
+6: ip= < 8.0285716E-4 2.5>;
+9: ip= < 8.0285716E-4 4.0>;
+5: ip= < 7.6285715E-4 3.25>;
+10: ip= < 7.6285715E-4 5.0>;
+4: ip= < 7.6285715E-4 4.125>;
+11: ip= < 7.6285715E-4 6.5>;
+13: ip= < 7.6285715E-4 7.0>;
+1: ip= < 0.0 3.15625>;
+14: ip= < 0.0 8.0>;
+}
+{DENDRO
+root=1
+drawer=RectangularPhylogram
+toscale=true
+radiallabels=false
+collapsed=0
+trans=angle:0.0 scaleX:111609.04 scaleY:29.85984 flipH:0 flipV:0 leftMargin:528 rightMargin:528 topMargin:239 bottomMargin:239;
+}
